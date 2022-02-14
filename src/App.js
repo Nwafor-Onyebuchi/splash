@@ -112,13 +112,7 @@ function App() {
                     color: "#fff",
                   }}
                 >
-                  <h4>
-                    {item.user && item.user.first_name}{" "}
-                    {item.user && item.user.last_name}
-                  </h4>
-                  <h6 style={{ textAlign: "left" }}>
-                    {item.user && item.user.location}
-                  </h6>
+                  
                 </div>
               </div>
             ))}
