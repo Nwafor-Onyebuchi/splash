@@ -35,6 +35,7 @@ function App() {
     }
   };
 
+
   const handleSearchInput = (e) => {
     e.preventDefault();
     setSearchText(e.target.value);
@@ -47,7 +48,7 @@ function App() {
     <div className="App container">
       <header className="App-header header">
         <div style={{ position: "relative" }}>
-          <FaSearch
+          <FaSearch className='hide-mobile'
             onClick={() => console.log(photos)}
             style={{ position: "absolute", left: "130px", top: "18" }}
           />
