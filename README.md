@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Splash
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An image gallery app done with react.
 
 ## Available Scripts
 
