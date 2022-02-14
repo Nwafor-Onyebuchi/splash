@@ -62,6 +62,7 @@ function App() {
           />
         </div>
       </header>
+      
       <section>
         <div className="grid-container">
           {photos.length > 0 &&

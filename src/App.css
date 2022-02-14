@@ -50,8 +50,8 @@ img {
   .grid-item {
     padding: 20px;
     font-size: 30px;
-    margin-top: -70px;
-    height: 600px;
+    margin-top: -50px;
+    height: 500px;
     width: 100%;
     
   }
@@ -67,6 +67,18 @@ img {
 
   .hide-mobile {
     display: none;
+  }
+
+  header {
+    background-color: #dde2e9;
+    padding: 40px;
+    width: 100%;
+    border-radius: 3px;
+  }
+
+  .App {
+    text-align: center;
+    margin-top: 40px;
   }
 
 }
